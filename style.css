@@ -5,8 +5,17 @@ body {
 #cabecalho {
   top: 0px;
   position: fixed;
+  width: 100%;
+}
+
+#titulo {
+  text-align: center;
 }
 
 #minha_foto {
   width: 300px;
+}
+
+article, aside p {
+  text-indent: 2em;
 }
