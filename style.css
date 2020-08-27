@@ -1,39 +1,56 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
 body {
   background-color: rgb(253 , 251 , 251);
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #cabecalho {
   top: 0px;
   position: fixed;
-  width: 100%;
-  background-color: aquamarine;
+  width: 99%;
+  background-color: rgb(72, 199, 211);
 }
 
 #titulo {
   text-align: center;
+  color: white; 
 }
 
 #minha_foto {
-  margin-top: 70px;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+#meu_banner {
+  display: inline-block;
+  height: 300px;
+  width: 935px;
 }
 
 .navigation {
-  border: 3px solid aquamarine;
+  background-color: rgb(72, 199, 211); 
+  color: white;
+  width: 100%;
   height: 50px;
 }
 
 .navigation li{
   display: inline-block;
+  height: 50px;
   width: 20%;
   text-decoration: none;
-  text-align: center;
-  border-right: 1px solid black;
+  text-align: center; 
+  padding-top: 10px;
+  border-right: 1px solid white;
+  border-radius: 10px;
   font-weight: bold;
 }
 
 .navigation li:first-child {
-  border-left: 1px solid black;
-  margin-bottom: 50px;
+  border-left: 1px solid white;
 }
 
 #minha_foto {
@@ -44,10 +61,19 @@ article, aside p {
   text-indent: 2em;
 }
 
+#tabela-tecnologica {
+  margin: 0 auto;
+  border: 2px solid black;
+}
 
-#tabela-tecnologica td {
+#tabela-tecnologica th, td {
   text-align: center;
-  border: 1px solid black;  
+  border: 1px solid black;
+  height: 40px; 
+}
+
+#tabela-tecnologica td{
+  width: 100px; 
 }
 
 footer {
@@ -60,3 +86,4 @@ footer p {
   text-align: center;
   padding-top: 75px; 
 }
+
