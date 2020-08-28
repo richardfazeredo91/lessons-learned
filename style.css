@@ -5,6 +5,7 @@ body {
   font-size: 20px;
   line-height: 1.5em;
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
 }
 
 #cabecalho {
@@ -57,19 +58,12 @@ body {
   width: 300px;
 }
 
-#minha-trajetoria article, aside {
+.lado-esquerdo, .lado-direito {
   display: inline-block;
   width: 45%;
   text-align: justify;
   margin-left: 40px;
   padding-bottom: 60px;
-}
-
-#minha-trajetoria aside {
-  
-}
-
-article, aside p {
   text-indent: 2em;
 }
 
