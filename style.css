@@ -7,7 +7,7 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
   position: fixed;
   width: 99%;
   background-color: rgb(72 , 199 , 211);
@@ -15,7 +15,7 @@ body {
 
 #titulo {
   text-align: center;
-  color:white;
+  color: white;
 }
 
 #minha_foto {
@@ -31,7 +31,7 @@ body {
 }
 
 .navigation {
-  background-color:rgb(72 , 199 , 211);
+  background-color: rgb(72 , 199 , 211);
   color: white;
   width: 100%;
   height: 50px;
@@ -46,7 +46,7 @@ body {
   padding-top: 10px;
   border-right: 1px solid white;
   border-radius: 10px;
-  font-weight: bold;
+  font-weight: 1px;
 }
 
 .navigation li:first-child {
@@ -75,7 +75,7 @@ body {
   border: 2px solid black;
 }
 
-#tabela-tecnologica th, td {
+#tabela-tecnologica th , td {
   text-align: center;
   border: 1px solid black;
   height: 40px;
@@ -96,4 +96,5 @@ footer p {
   padding-top: 55px;
   color: black;
   font-style: italic;
+
 }
