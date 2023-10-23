@@ -18,6 +18,10 @@ body {
   color: white;
 }
 
+.banner-topo {
+  width: 100%;
+}
+
 #minha_foto {
   display: inline-block;
   margin-top: 100px;
@@ -27,7 +31,7 @@ body {
 #meu_banner {
   display: inline-block;
   height: 300px;
-  width: 935px;
+  width: 77%;
 }
 
 .navigation {
